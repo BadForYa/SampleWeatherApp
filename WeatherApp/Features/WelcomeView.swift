@@ -8,9 +8,11 @@
 import SwiftUI
 import CoreLocationUI
 
+//test action commit
 struct WelcomeView: View {
     @EnvironmentObject var locationViewModel: LocationViewModel
     var body: some View {
+        
         VStack {
             VStack(spacing: SpacingConstants.medium.rawValue){
                 Text(LocaleKeys.welcomeText.rawValue.locale())
