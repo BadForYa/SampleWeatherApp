@@ -8,6 +8,7 @@
 import SwiftUI
 import CoreLocationUI
 
+//test test
 struct WelcomeView: View {
     @EnvironmentObject var locationViewModel: LocationViewModel
     var body: some View {
