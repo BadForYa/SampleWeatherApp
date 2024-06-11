@@ -11,6 +11,7 @@ struct ContentView: View {
     @StateObject var locationViewModel = LocationViewModel()
     @StateObject var weatherViewModel = WeatherViewModel()
 
+    //test
     var body: some View {
         VStack {
             if let location = locationViewModel.location {
