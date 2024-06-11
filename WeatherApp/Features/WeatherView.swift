@@ -7,10 +7,12 @@
 
 import SwiftUI
 
+//Update for test
 struct WeatherView: View {
     let weather: WeatherModel
     var body: some View {
         ZStack(alignment: .leading) {
+            
             VStack {
                 CityAndDateView(weather: weather)
                 Spacer()
