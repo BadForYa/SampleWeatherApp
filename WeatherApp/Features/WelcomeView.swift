@@ -20,6 +20,9 @@ struct WelcomeView: View {
             }
             .multilineTextAlignment(.center)
             .padding()
+            .onTapGesture {
+                print("tapped")
+            }
             
             LocationButtonView(locationViewModel: _locationViewModel)
         }
