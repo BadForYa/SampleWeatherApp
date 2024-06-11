@@ -1,3 +1,6 @@
-opt_in_rules:
+only_rules:
   - accessibility_label_for_image
-  - accessibility_trait_for_button  
+  - accessibility_trait_for_button
+included: # case-sensitive paths to include during linting. `--path` is ignored if present
+  - WeatherApp
+strict: true
